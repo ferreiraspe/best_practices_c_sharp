@@ -1,5 +1,4 @@
 ﻿using Avanade.BestPractices.Infrastructure.Core.Entities;
-using Avanade.BestPractices.Infrastructure.Core.Entities.Interfaces;
 
 namespace Avanade.BestPractices.Domain.Entities
 {

@@ -30,8 +30,8 @@ namespace Avanade.BestPractices.Domain.Entities
                 {
                     Currency = currency,
                     Value = Charges
-                    .Where(x => allowedStatus.Contains(x.Status))
-                    .Sum(x => x.NetValue.Value)
+                        .Where(x => allowedStatus.Contains(x.Status))
+                        .Sum(x => x.NetValue.Value)
                 };
             }
         }

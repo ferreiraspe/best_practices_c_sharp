@@ -8,5 +8,7 @@ namespace Avanade.BestPractices.Domain.Entities
         public Model Model { get; set; }
 
         public string Name { get; set; }
+
+        public List<Vehicle> Vehicles { get; set; }
     }
 }
